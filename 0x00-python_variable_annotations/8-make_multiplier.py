@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """Write a type-annotated function make_multiplier that takes
 a float multiplier as argument and returns a function that
@@ -15,4 +14,3 @@ def make_multiplier(multiplier: float) -> typing.Callable[[float], float]:
         return multiplier * x
 
     return float_multiply
-
